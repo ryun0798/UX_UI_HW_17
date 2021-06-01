@@ -1,25 +1,67 @@
 body {
-    background-color: rgb(230, 242, 247);
+    background-color: rgb(255, 255, 255);
   }
 
-  h1 {
-    color: navy;
-    margin-left: 20px;
+  #logo {
+    width: 150px;
+    height: 50px;
+    position:fixed;
+    top:0;
+    left:0;   
   }
   .nav {
-    font-size: 40px;
-    color: #ee6225;
-    font-family: Arial, Helvetica, sans-serif;
-   }
+    display: flex;
+    list-style-type: none;
+    top: 0;
+    background-color:transparent;
+    height: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    word-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif
+   }    
    #profile {
        width: 300px;
        height: 300px;
+       display: block;
+       margin-left: 50px;
    }
+   h1 {
+    color:black;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .box {
+      position:absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 4px;
+   }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
    .para {
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-align:justify;
+       line-height: normal;
    }
+   .list {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    line-height: normal;
+    }
    #contact {
        color: blue;
+       font-family: Arial, Helvetica, sans-serif;
+
    }
    #work {
        color:blue;
