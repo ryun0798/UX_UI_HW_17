@@ -16,13 +16,16 @@ body {
     background-color:transparent;
     height: 20px;
     justify-content: center;
-    align-items: flex-end;
     color: black;
     padding: 10px;
     font-size: 18px;
     word-spacing: normal;
     font-family: Arial, Helvetica, sans-serif;
     
+   }
+
+   #bottom {
+
    }
    li {
        padding: 0 10px;
@@ -32,12 +35,10 @@ body {
        width: 300px;
        height: 300px;
        display: block;
-       margin-left: 50px;
-       padding: 0 10px;
+       margin-right: 50px;
    }
    h1 {
     color:black;
-    margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
@@ -49,6 +50,7 @@ body {
       padding: 20px;
       box-sizing: border-box;
       border-radius: 4px;
+      display: flex;
    }
   h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +61,7 @@ body {
        text-align:justify;
        line-height: normal;
        align-items: center;
+       display: inline block;
    }
    .list {
     font-family: Arial, Helvetica, sans-serif;
@@ -68,6 +71,11 @@ body {
    #contact {
        color: blue;
        font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+   container {
+       border: yellow, 1px, solid;
 
    }
    #work {
