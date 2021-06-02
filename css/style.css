@@ -22,17 +22,18 @@ body {
     font-size: 18px;
     word-spacing: normal;
     font-family: Arial, Helvetica, sans-serif;
-    border: 4px blue solid;
+    
    }
    li {
        padding: 0 10px;
-       border: 4px red solid;
+       
    }    
    #profile {
        width: 300px;
        height: 300px;
        display: block;
        margin-left: 50px;
+       padding: 0 10px;
    }
    h1 {
     color:black;
